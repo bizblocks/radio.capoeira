@@ -1,0 +1,3 @@
+#!/bin/bash
+DIR=/var/www/radio/chave/
+CHAVE=/chave/

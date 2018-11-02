@@ -1,0 +1,76 @@
+<html>
+<title>Radio Capoeira</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<link rel="icon" type="image/png" href="/images/next.png"/>
+<link rel="stylesheet" href="css/jPlayer.css" type="text/css">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" type="text/css">
+<link rel="stylesheet" href="css/prettify-jPlayer.css" type="text/css">
+<link rel="stylesheet" href="css/randmus.css" type="text/css">
+
+<script type="text/javascript" src="lib/jquery.min.js"></script>
+<script type="text/javascript" src="lib/jquery-ui.js"></script>
+<script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="main.js"></script>	
+<body>
+	<div class="centered">
+		<table border="0">
+			<tr>
+				<td><img src="images/next.png" onclick="next();" id="btnNext"></td>
+				<td><img src="images/play.png" onclick="playpause();" id="btnPlayPause"></td>
+				<td>
+					<div id="jplayer" class="jp-jplayer"></div>
+					<div id="jp_container_1">
+<!--
+						<div class="jp-gui ui-widget ui-widget-content ui-corner-all">
+							<ul>
+								<li class="jp-mute ui-state-default ui-corner-all" style="display: list-item;"><a href="javascript:;" class="jp-mute ui-icon ui-icon-volume-off" tabindex="1" title="mute" style="display: block;">mute</a></li>
+								<li class="jp-unmute ui-state-default ui-state-active ui-corner-all" style="display: none;"><a href="javascript:;" class="jp-unmute ui-icon ui-icon-volume-off" tabindex="1" title="unmute" style="display: none;">unmute</a></li>
+								<li class="jp-volume-max ui-state-default ui-corner-all"><a href="javascript:;" class="jp-volume-max ui-icon ui-icon-volume-on" tabindex="1" title="max volume">max volume</a></li>
+							</ul>
+							<div class="jp-volume-slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" aria-disabled="false"><div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min" style="width: 16%;"></div><a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 16%;"></a></div>
+							<div class="jp-current-time">00:01</div>					
+							<div class="jp-duration">00:02</div>
+							<div class="jp-clearboth"></div>
+						</div>
+-->
+						<div class="jp-no-solution" style="display: none;">
+							<span>Update Required</span>
+							To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+						</div>
+					</div>				
+				
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter46739889 = new Ya.Metrika({
+                    id:46739889,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/46739889" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</html>

@@ -1,0 +1,17 @@
+#!/bin/bash
+
+
+rnd ()
+{
+    r=$(( $RANDOM % $1 ))
+    return $r
+}
+
+. ../settings
+files=( "$DIR"*.ogg )
+count=${#files[@]}
+
+echo -e "Content-Type: text/html\n\n"
+$(rnd $count)
+echo $CHAVE${files[$?]##$DIR}
+
